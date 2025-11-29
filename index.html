@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -472,30 +474,237 @@
         </div>
     </section>
 
+
+    <!-- Program Formats Section -->
+    <section id="program-formats" class="py-100 bg-white position-relative">
+        <div class="container">
+            <div class="text-center mb-5 mw-800 mx-auto">
+                <span class="badge bg-soft-primary text-primary mb-3 px-3 py-2 rounded-pill fw-semibold">Flexible Learning Options</span>
+                <h2 class="section-title mb-3">Choose Your <span class="text-primary">Learning Path</span></h2>
+                <p class="text-muted">Select the format that best fits your schedule and learning style. Each path is designed to deliver exceptional results.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Self-Paced Program -->
+                <div class="col-lg-4">
+                    <div class="card program-format-card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="card-header bg-gradient-primary text-white border-0 p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="format-icon bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 56px; height: 56px;">
+                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                                </div>
+                                <span class="badge bg-white text-primary fw-bold">Popular</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Self-Paced Learning</h3>
+                            <p class="mb-0 small opacity-90">Learn at your own speed, anytime, anywhere</p>
+                        </div>
+                        <div class="card-body p-4">
+                            <!-- Assignments -->
+                            <div class="mb-4">
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-success text-success me-2">✓</span>
+                                    Assignments
+                                </h5>
+                                <ul class="list-unstyled ms-4">
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Pre-Course Assignment</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Module-wise Assignments</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Capstone Project</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Assessments -->
+                            <div>
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-warning text-warning me-2">✓</span>
+                                    Assessments
+                                </h5>
+                                <ul class="list-unstyled ms-4">
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-warning me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Written Questions</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-warning me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Multiple Choice Questions</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="#programs" class="btn btn-primary w-100 rounded-pill fw-bold">Explore Self-Paced</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Live Session Program -->
+                <div class="col-lg-4">
+                    <div class="card program-format-card h-100 border-0 shadow-lg position-relative overflow-hidden featured-card">
+                        <div class="featured-badge">
+                            <span class="badge bg-warning text-dark fw-bold">Recommended</span>
+                        </div>
+                        <div class="card-header bg-gradient-dark text-white border-0 p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="format-icon bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 56px; height: 56px;">
+                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+                                </div>
+                                <span class="badge bg-white text-dark fw-bold">Interactive</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Live Session</h3>
+                            <p class="mb-0 small opacity-90">Real-time learning with expert instructors</p>
+                        </div>
+                        <div class="card-body p-4">
+                            <!-- Assignments -->
+                            <div class="mb-4">
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-success text-success me-2">✓</span>
+                                    Assignments
+                                </h5>
+                                <ul class="list-unstyled ms-4">
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Pre-Course Assignment</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Module-wise Assignments</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-success me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Capstone Project</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Assessments -->
+                            <div>
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-warning text-warning me-2">✓</span>
+                                    Assessments
+                                </h5>
+                                <ul class="list-unstyled ms-4">
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-warning me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Written Questions</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-warning me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Multiple Choice Questions</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="#programs" class="btn btn-dark w-100 rounded-pill fw-bold">Explore Live Sessions</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Physical Session Program -->
+                <div class="col-lg-4">
+                    <div class="card program-format-card h-100 border-0 shadow-lg position-relative overflow-hidden">
+                        <div class="card-header bg-gradient-secondary text-white border-0 p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="format-icon bg-white bg-opacity-25 rounded-circle d-flex align-items-center justify-content-center" style="width: 56px; height: 56px;">
+                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                                </div>
+                                <span class="badge bg-white text-dark fw-bold">In-Person</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-2">Physical Session</h3>
+                            <p class="mb-0 small opacity-90">Immersive classroom experience</p>
+                        </div>
+                        <div class="card-body p-4">
+                            <!-- No Assignments -->
+                            <div class="mb-4">
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-secondary text-secondary me-2">—</span>
+                                    Assignments
+                                </h5>
+                                <div class="ms-4">
+                                    <div class="alert alert-light border mb-0 py-2 px-3">
+                                        <small class="text-muted d-flex align-items-center">
+                                            <svg class="me-2" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                                            No assignments required
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- No Assessments -->
+                            <div class="mb-4">
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-secondary text-secondary me-2">—</span>
+                                    Assessments
+                                </h5>
+                                <div class="ms-4">
+                                    <div class="alert alert-light border mb-0 py-2 px-3">
+                                        <small class="text-muted d-flex align-items-center">
+                                            <svg class="me-2" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                                            No formal assessments
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Benefits -->
+                            <div>
+                                <h5 class="fw-bold mb-3 d-flex align-items-center">
+                                    <span class="badge bg-soft-primary text-primary me-2">✓</span>
+                                    Benefits
+                                </h5>
+                                <ul class="list-unstyled ms-4">
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-primary me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Hands-on Workshops</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-primary me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Networking Opportunities</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-start">
+                                        <svg class="text-primary me-2 mt-1 flex-shrink-0" width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                        <span class="small">Direct Instructor Access</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                            <a href="#programs" class="btn btn-outline-dark w-100 rounded-pill fw-bold">Explore Physical Sessions</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Scholarship Section -->
     <section id="scholarship" class="py-100 bg-dark text-white position-relative">
         <div class="container position-relative z-2">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
-                    <h2 class="section-title mb-4">Unlock Your Potential with <span class="text-gradient-gold">Scholarships</span></h2>
-                    <p class="lead text-white-50 mb-4">We believe in making world-class education accessible. World Academy offers partial and full scholarships for deserving candidates.</p>
-                    <div class="d-flex gap-3">
+                    <h2 class="section-title mb-4">Unlock Your <span class="text-gradient-gold">Career</span> Potential</h2>
+                    <p class="lead text-white-50 mb-4">World Academy’s KPI courses are designed to help you master performance measurement and drive real business results. Gain skills that employers value and accelerate your career growth</p>
+                    <div class="d-flex flex-column gap-3">
                         <div class="d-flex align-items-center">
                             <div class="icon-box bg-warning text-dark rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
-                                <span class="fw-bold">50%</span>
+                                <span class="fw-bold"><i class="fa-solid fa-user-tie"></i></span>
                             </div>
                             <div>
-                                <h6 class="mb-0 fw-bold">Merit Based</h6>
-                                <small class="text-white-50">For top performers</small>
+                                <h6 class="mb-0 fw-bold">Career Advancement</h6>
+                                <small class="text-white-50">Boost your professional profile and opportunities.</small>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center ms-4">
+                        <div class="d-flex align-items-center">
                             <div class="icon-box bg-info text-white rounded-circle me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
-                                <span class="fw-bold">100%</span>
+                                <span class="fw-bold"><i class="fa-solid fa-chart-line"></i></span>
                             </div>
                             <div>
-                                <h6 class="mb-0 fw-bold">Need Based</h6>
-                                <small class="text-white-50">For financial aid</small>
+                                <h6 class="mb-0 fw-bold">Data-Driven Decisions</h6>
+                                <small class="text-white-50">Make informed choices that move the needle.</small>
                             </div>
                         </div>
                     </div>
@@ -520,6 +729,184 @@
         <div class="hero-bg-shape opacity-1" style="background: radial-gradient(circle, #ffc107 0%, rgba(0,0,0,0) 30%); top: auto; bottom: -20%; left: -10%; opacity: 0.2;"></div>
     </section>
 
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-100 bg-light position-relative">
+        <div class="container">
+            <div class="text-center mb-5 mw-800 mx-auto">
+                <h2 class="section-title mb-3">Frequently Asked <span class="text-primary">Questions</span></h2>
+                <p class="text-muted">Find answers to common questions about our KPI certification programs.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion custom-accordion" id="faqAccordion">
+                        <!-- Item 1 -->
+                        <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    What is the duration of the certification program?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Our KPI Professional program typically takes 3-5 days of intensive training, followed by a project assignment. The self-paced online option can be completed within 4-8 weeks depending on your schedule.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Is the certification recognized globally?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Yes, World Academy certifications are globally recognized and accredited by leading international bodies such as HRCI, SHRM, and CPD UK, ensuring your credentials are valued worldwide.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I get my employer to sponsor the course?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Absolutely. Many of our delegates are sponsored by their organizations. We provide a downloadable sponsorship letter template to help you present the business case to your management.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What happens if I fail the exam?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    We have a high pass rate due to our comprehensive preparation. However, if you do not pass on the first attempt, you are eligible for one free retake within 6 months of your initial exam date.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Power Talks Section -->
+    <section id="power-talks" class="py-100 bg-dark text-white position-relative overflow-hidden">
+        <div class="power-talks-bg"></div>
+        <div class="container position-relative z-2">
+            <div class="text-center mb-5 mw-800 mx-auto">
+                <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill fw-bold">Expert Insights</span>
+                <h2 class="section-title mb-3 text-white">Power <span class="text-gradient-gold">Talks</span></h2>
+                <p class="text-white-50">Deep-dive sessions that transform your understanding of KPIs and drive real organizational impact.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Talk 1: KPI that moves the needle -->
+                <div class="col-lg-4">
+                    <div class="power-talk-card h-100">
+                        <div class="talk-number">01</div>
+                        <div class="talk-icon-wrapper mb-4">
+                            <div class="talk-icon bg-gradient-primary">
+                                <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3 text-white">KPI That Moves the Needle</h3>
+                        <p class="text-primary fw-semibold mb-3 small">From Activity to Impact</p>
+                        <p class="text-white-50 mb-4">How to distinguish between busy work and true performance indicators that drive meaningful results.</p>
+                        
+                        <div class="talk-focus p-3 rounded-3 mb-4">
+                            <h5 class="small fw-bold text-warning mb-2">
+                                <svg class="me-2" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                Focus
+                            </h5>
+                            <p class="small mb-0 text-white-50">Learn to identify and eliminate vanity metrics, focusing only on KPIs that create tangible business value and strategic alignment.</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Talk 2: KPI Audit -->
+                <div class="col-lg-4">
+                    <div class="power-talk-card h-100 featured-talk">
+                        <div class="featured-glow"></div>
+                        <div class="talk-number">02</div>
+                        <div class="talk-icon-wrapper mb-4">
+                            <div class="talk-icon bg-gradient-warning">
+                                <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                    <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3 text-white">KPI Audit</h3>
+                        <p class="text-warning fw-semibold mb-3 small">Eliminate, Replace, Reimagine</p>
+                        <p class="text-white-50 mb-4">Practical techniques to evaluate and upgrade existing KPIs for maximum organizational effectiveness.</p>
+                        
+                        <div class="talk-focus p-3 rounded-3 mb-4">
+                            <h5 class="small fw-bold text-warning mb-2">
+                                <svg class="me-2" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                Focus
+                            </h5>
+                            <p class="small mb-0 text-white-50">Master a systematic framework to audit your current KPIs, identify redundancies, and redesign metrics that align with evolving business priorities.</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Talk 3: KPI-OKR Connection -->
+                <div class="col-lg-4">
+                    <div class="power-talk-card h-100">
+                        <div class="talk-number">03</div>
+                        <div class="talk-icon-wrapper mb-4">
+                            <div class="talk-icon bg-gradient-success">
+                                <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="h4 fw-bold mb-3 text-white">The KPI-OKR Connection</h3>
+                        <p class="text-success fw-semibold mb-3 small">Strategy Meets Execution</p>
+                        <p class="text-white-50 mb-4">How to bridge KPIs with modern goal-setting frameworks like OKRs for seamless strategic execution.</p>
+                        
+                        <div class="talk-focus p-3 rounded-3 mb-4">
+                            <h5 class="small fw-bold text-warning mb-2">
+                                <svg class="me-2" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                Focus
+                            </h5>
+                            <p class="small mb-0 text-white-50">Discover how to integrate KPIs with OKRs to create a unified performance management system that drives both strategic vision and operational excellence.</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
     <!-- Accreditation Section -->
     <section id="accreditation" class="py-5 bg-white border-top position-relative overflow-hidden">
         <div class="container">
@@ -536,22 +923,30 @@
                         <!-- Logos (Styled as text placeholders for now, but ready for images) -->
                         <div class="col text-center">
                             <div class="p-3 rounded-3 bg-light hover-shadow transition-all">
-                                <h5 class="fw-bold text-secondary mb-0">Cambridge<br><span class="small fw-normal">Academy</span></h5>
+                                <div class="accr_img_wrap">
+                                    <img class="accr_img" src="https://res.cloudinary.com/df1wogzd2/image/upload/v1747806365/recognitions/rtlnwyqcagdfvylh9afp.png" alt="">
+                                </div>
                             </div>
                         </div>
                         <div class="col text-center">
                             <div class="p-3 rounded-3 bg-light hover-shadow transition-all">
-                                <h5 class="fw-bold text-secondary mb-0">HRCI</h5>
+                                <div class="accr_img_wrap">
+                                    <img class="accr_img" src="https://res.cloudinary.com/df1wogzd2/image/upload/v1747805786/recognitions/bwzxbzncz81iyblpywrm.png" alt="">
+                                </div>
                             </div>
                         </div>
                          <div class="col text-center">
                             <div class="p-3 rounded-3 bg-light hover-shadow transition-all">
-                                <h5 class="fw-bold text-secondary mb-0">SHRM</h5>
+                                <div class="accr_img_wrap">
+                                    <img class="accr_img" src="https://res.cloudinary.com/df1wogzd2/image/upload/v1747805985/recognitions/ypf8n7medncnsn8fxbuy.png" alt="">
+                                </div>
                             </div>
                         </div>
                          <div class="col text-center">
                             <div class="p-3 rounded-3 bg-light hover-shadow transition-all">
-                                <h5 class="fw-bold text-secondary mb-0">World Academy</h5>
+                                <div class="accr_img_wrap">
+                                    <img class="accr_img" src="https://worldacademy.uk/usermedia/Logo/WARD-Logo-Horizontal.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -646,6 +1041,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="js/main.js"></script>
 </body>
 </html>
