@@ -48,6 +48,19 @@ gsap.from("#what-is-kpi .col-lg-6 > *", {
     ease: "power3.out"
 });
 
+// Target Audience Section
+gsap.from(".persona-card", {
+    scrollTrigger: {
+        trigger: "#target-audience",
+        start: "top 80%",
+    },
+    y: 50,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: "back.out(1.7)"
+});
+
 // Why Important Cards
 gsap.from(".hover-lift", {
     scrollTrigger: {
