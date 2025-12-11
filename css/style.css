@@ -32,6 +32,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
 }
 
+.wa-w-v-logo{
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+}
+
+
 .text-gradient {
     background: linear-gradient(45deg, var(--primary-color), #00d2ff);
     -webkit-background-clip: text;
@@ -224,9 +231,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .program-card-wrapper {
+    min-height: 250px;
     width: 300px;
     margin-right: 2rem;
     white-space: normal; /* Allow text inside card to wrap */
+}
+
+.program-card-wrapper h5 a{
+    color: #fff;
+    text-decoration: none;
 }
 
 @keyframes scroll {
@@ -561,6 +574,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-logo{
-    height: 30px;
+    height: 40px;
     width: auto;
 }
